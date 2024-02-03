@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		body{background-color: antiquewhite}
+		#myHeader {
+			background-color:lightsteelblue;
+			color:darkblue;
+			text-align: center;
+		}
+		
+	</style>
+<meta charset="utf-8">
+<title>SUBMITINFO</title>
+</head>
+<body>
+	<h1 id="myHeader"> Horoscope Reading</h1>
+	
+	<form action="mailto:gramirez201@student.almao.edu" method="post">
+		<label for="Bithday">Birthday:</label>
+		<input type="text" id="Birthday" name="Birthday" autofocus >
+		<br>
+		<label for="BirthTime">BirthTime:</label>
+		<input type="text" id="BirthTime" name="BirthTime">
+		
+		<p>Choose what you would like your reading on:</p>
+		<input type="radio" id="Love" name="Reading" value="Love">
+		<label for="Love">Love Life</label><br>
+		<input type="radio" id="money" name="Reading" value="money">
+		<label for="money">Financial status</label><br>
+		<input type="radio" id="health" name="Reading" value="health">
+		<label for="health">Health</label><br>
+		<button type="submit"> Submit info here </button>
+	</form>
+</body>
+</html>
